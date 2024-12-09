@@ -199,7 +199,7 @@ export function PopupWidget() {
               placeholder="you@company.com"
               className={`w-full px-3 py-2 text-gray-600 placeholder-gray-300 bg-white border border-gray-300 rounded-md focus:outline-none focus:ring ${
                 errors.email
-                  ? "border-red-600 focus:border-red-600 ring-red-100"
+                  ? "border-red-600 focus:border-red-600 nring-red-100"
                   : "border-gray-300 focus:border-indigo-600 ring-indigo-100"
               }`}
             />
